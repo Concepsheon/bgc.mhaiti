@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<meta name="author" content="Concepsheon Hall">
+		<meta name="description" content="Committed to the premise that children around the globe deserve a good start and a solid foundation to flourish and succeed.">
+
+		<title>Boys & Girls Club of Montrouis Haiti</title>
+		<!--<link rel="shortcut icon" href="favicon.png" type="image/x-icon">-->
+		<meta name="robots" content="index,follow">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+		<style type="text/css">
+		    
+		    html, body {
+		        height: 100%;
+		    }
+		    
+		    .hero {
+		        height: 100%;
+		        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/children_group.jpg');
+		        background-size: cover;
+		        background-repeat: no-repeat;
+		        background-position: center;
+		    }
+		    
+		    header {
+		        background: #0083C0;
+		    }
+		    
+		    .nav-link {
+		        color: white !important;
+		        font-size: 24px;
+		    }
+		    
+		    .btn-outline-light:hover {
+		        color: #0083C0;
+		        background-color: #f8f9fa;
+		        border-color: #f8f9fa;
+		    }
+		    
+		    .btn-outline-light:not(:disabled):not(.disabled):active {
+		        color: #0083C0;
+		    }
+		    
+		    .btn-outline-light:focus {
+		        outline: none;
+		        box-shadow: none;
+		    }
+		    
+		    .btn-outline-info {
+		        color: #0083C0;
+		        border-color: #0083C0;
+		    }
+		    
+		    .btn-outline-info:hover {
+		        background: #0083C0;
+		    }
+		    
+		    h1 {
+		        font-size: 3.6rem;
+		        line-height: 1.25;
+		        letter-spacing: -.1rem;
+		    }
+		    
+		    hr {
+		        width: 100%;
+		        border-width: .25rem;
+		        border-color: #e9ecef;
+		        border-bottom-style: solid;
+		        margin-top: 2px;
+		        margin-bottom: 3rem;
+		    }
+		    
+		    .line-right {
+		        border-right: .25rem solid #e9ecef;
+		    }
+		    
+		    .col-half {
+		        width: 94%;
+		        max-width: 1200px;
+		        margin: 0 auto;
+		        margin-bottom: 0px;
+		    }
+		    
+		    .text-block {
+		        padding-top: 5.2rem;
+		        padding-bottom: 4rem;
+		        color: #010507;
+		        position: relative;
+		    }
+		    
+		    .section-header.has-bottom-sep {
+		        padding-bottom: 2.1rem;
+		        position: relative;
+		    }
+		    
+		    .section-header {
+		        text-align: center;
+		        position: relative;
+		        margin-bottom: 3.6rem;
+		        max-width: 960px;
+		    }
+		    
+		    .section-header.has-bottom-sep::before {
+		        content: "";
+		        display: inline-block;
+		        height: 1px;
+		        width: 550px;
+		        background-color: rgba(0, 0, 0, 0.1);
+		        position: absolute;
+		        bottom: 0;
+		        left: 50%;
+		        -webkit-transform: translateX(-50%);
+		        -ms-transform: translateX(-50%);
+		        transform: translateX(-50%);
+		    }
+		    
+		    .col-full {
+		        width: 100%;
+		    }
+		    
+		    .heading-styling {
+		        font-size: 7.8rem;
+		        line-height: 1.25;
+		        color: #0083C0;
+		        margin-top: 0;
+		    }
+		    
+		    .desc {
+		        font-size: 1.4rem;
+		        line-height: 1.75;
+		        text-align: center;
+		        max-width: 1024px;
+		    }
+		    
+		    .image-block {
+		        height: 75%;
+		    }
+		    
+		    .alt {
+		        background: black;
+		    }
+		    
+		    .social-links a {
+		        font-size: 38px;
+		        color: #0083C0;
+		    }
+		    
+		    footer {
+		        width: 100%;
+		        padding: 25px 0 10px 0;
+		        text-align: center;
+		        background: #0083C0;
+		    }
+		    
+		    .copyright {
+		        font-size: 18px;
+		        color: white;
+		    }
+		    
+		    #haiti-img {
+		        background: url("images/haiti_children.jpg");
+		        background-size: cover;
+		        background-repeat: no-repeat;
+		    }
+		    
+		    #beach-img {
+		        background: url("images/beach_boys.png");
+		        background-attachment: fixed;
+		        background-size: cover;
+		        background-repeat: no-repeat;
+		    }
+		    
+		    .back-to-top {
+		        opacity: 0;
+		        position: fixed;
+		        bottom: 10px;
+		        right: 15px;
+		        padding-top: 3px;
+		        border-radius: 5px;
+		        text-align: center;
+		        background: #0083C0;
+		        width: 70px;
+		        height: 70px;
+		        transition: opacity 0.5s ease;
+		    }
+		    
+		    .back-to-top a {
+		        display: block;
+		        width: 100%;
+		        height: 100%;
+		        color: white;
+		        font-size: 42px;
+		    }
+		</style>
+    </head>
+    <body>
+        <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+            <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Boys &amp; Girls Club of Montrouis Haiti">Boys &amp; Girls Club of Montrouis Haiti</a>
+            
+            <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="https://twitter.com/BGC_Haiti" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="https://www.instagram.com/bgc.m.haiti" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+            
+            <a class="btn btn-outline-light d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="#" data-toggle="modal" data-target="#donateModal">Donate</a>
+        </header>
+        
+        <div class="back-to-top"><a href="#"><i class="fas fa-arrow-up"></i></a></div>
+        
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-left" style="color: white; margin-top: 3.5em">
+                        <img src="images/bgc_haiti_logo_other.png" alt="Boys &amp; Girls Club of Montrouis Haiti" />
+                        <h1 class="display-3">Feeding Minds...Feeding Hearts...<br>Feeding Hope...Feeding Hunger</h1>
+                        <button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#donateModal"><i class="far fa-heart"></i> Donate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section id="mission" class="text-block">
+            <div class="col-half section-header has-bottom-sep">
+                <div class="col-full"><h1 class="heading-styling">Our Mission</h1></div>
+            </div>
+            
+            <div class="col-half desc">
+                <div class="col-full"><p>Committed to the premise that children around the globe deserve a good start and a solid foundation to flourish and succeed. Providing training and opportunites they would never have access to and a safe place where they can learn and grow to their full potential. We will strive to give all youth all the resources within our power through education, skill set programs and ongoing support so they can successfully grow into responsible, model citizens.</p></div>
+            </div>
+        </section>
+        
+        <section id="bgc-logo" class="image-block text-center alt"><img style="margin-top: 3%;" class="img-fluid" src="images/bgc_logo.png" alt="Boys &amp; Girls Club logo" /></section>
+        
+        <section id="board" class="text-block">
+            <div class="col-half section-header has-bottom-sep">
+                <div class="col-full"><h1 class="heading-styling">Board Members</h1></div>
+            </div>
+            
+            <div class="col-half desc">
+                <div class="col-full">
+                    <p><strong>President</strong> Regina D. Ledsinger</p>
+                    <p><strong>Secretary</strong> Susan Santos</p>
+                    <p><strong>Treasurer</strong> Mary Wright</p>
+                    <p><strong>Board Member</strong> Alvin James Freeman Jr.</p>
+                    <p><strong>Board Member</strong> Tekara L. Ray-Carnegie</p>
+                    <p><strong>Executive Director</strong> Innocent Desir</p>
+                    <p><strong>Special Events Coordinator</strong> Bazelais Vaval</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="haiti-img" class="image-block"></section>
+        
+        <section id="partner" class="text-block">
+            <div class="col-half section-header has-bottom-sep">
+                <div class="col-full"><h1 class="heading-styling">Partnership</h1></div>
+            </div>
+            
+            <div class="col-half desc">
+                <div class="col-full"><p>We are proud to be partnering with The Boys & Girls Clubs of America, who have been influencing and changing young people's lives for more than a century. We are certain with their support and training we will be able to move mountains in many children's lives in Haiti.</p></div>
+            </div>
+        </section>
+        
+        <section id="beach-img" class="image-block"></section>
+        
+        <!--<section id="contact" class="text-block">
+            <div class="col-half section-header has-bottom-sep">
+                <div class="col-full"><h1 class="heading-styling">Contact</h1></div>
+            </div>
+            
+            <div class="col-half desc">
+                <div class="col-full">
+                    <p><strong>Regina Ledsinger</strong>, Founder/President</p>
+                    <p>(770) 355 - 6693</p>
+                    
+                    <p><strong>Mary A. Wright</strong></p>
+                    <p>(678) 467 - 1102</p>
+                    
+                    <p><strong>Email</strong></p>
+                    <p>bgc.m.haiti@gmail.com</p>
+                </div>
+            </div>
+        </section>-->
+        
+        <hr>
+        
+        <section style="margin-bottom: 25px;">
+            <div class="container text-left">
+                <div class="row">
+                    <div class="col-sm line-right">
+                        <h2>About</h2>
+                        <p>Committed to the premise that children around the globe deserve a good start and a solid foundation to flourish and succeed.</p>
+                        <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#donateModal"><i class="far fa-heart"></i> Donate</button>
+                    </div>
+                    <div class="col-sm line-right">
+                        <h2>Follow Us</h2>
+                        <p>Stay up tp date with everything that we do.</p>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://twitter.com/BGC_Haiti" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/bgc.m.haiti/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <h2>Contact</h2>
+                        <p><strong>Regina Ledsinger</strong>, Founder/President <br> (770) 355 - 6693</p>
+                        <p><strong>Mary A. Wright</strong> <br> (678) 467 - 1102</p>
+                        <p><i class="far fa-envelope"></i> bgc.m.haiti@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer><p class="copyright">&copy; 2017 Boys &amp; Girls Club of Montrouis Haiti</p></footer>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="donateModal" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-center" id="donateModalTitle">Feeding Minds...Feeding Hearts...Feeding Hope...Feeding Hunger</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <div><img src="images/bgc_haiti_donate.png" alt="Boys &amp; Girls Club of Montrouis Haiti logo" /></div>
+                <h6>For Donations and Correspondence Mail To: </h6>
+                <p><address>Boys & Girls Club of Montrouis, Haiti Inc. <br> P.O. Box 92798 <br> Atlanta, GA 30314</address></p>
+                
+                <div style="font-size: 21px;">
+                    <a class="p-2" href="https://donorbox.org/boys-and-girls-club-of-montrouis-needs-your-help-raising-10-000-to-secure-our-club-building-in-haiti" target="_blank">Donor Box</a>
+                    <a class="p-2" href="#" target="_blank"><i class="fab fa-paypal"></i></a>
+                    <a class="p-2" href="#" target="_blank"><i class="fas fa-dollar-sign"></i></a>
+                    <a class="p-2" href="#" target="_blank"><i class="far fa-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $(function() {
+                console.log( "ready!" );
+                
+                var btn = $(".back-to-top")
+                
+                $(window).scroll(function() {
+                   var scrollPos = $(this).scrollTop();
+                   
+                   if(scrollPos > 800) {
+                       $(btn).css("opacity", "1");
+                   } else {
+                       $(btn).css("opacity", "0");
+                   }
+                });
+                
+                $(btn).click(function() {
+                    $('html, body').animate({scrollTop: 0}, 800);
+                    return false;
+                });
+            });
+        </script>
+    </body>
+</html>
