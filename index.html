@@ -22,7 +22,9 @@
 		    
 		    html, body {
 		        height: 100%;
+		        overflow-x: hidden;
 		    }
+		    
 		    
 		    .hero {
 		        height: 100%;
@@ -146,10 +148,6 @@
 		        height: 75%;
 		    }
 		    
-		    .alt {
-		        background: black;
-		    }
-		    
 		    .social-links a {
 		        font-size: 38px;
 		        color: #0083C0;
@@ -165,6 +163,13 @@
 		    .copyright {
 		        font-size: 18px;
 		        color: white;
+		    }
+		    
+		    #bgc-logo {
+		    	background: url("images/bgc_logo.png"), linear-gradient( rgb(0, 0, 0), rgb(0, 0, 0) );
+		    	background-position: center;
+		    	background-size: contain;
+		    	background-repeat: no-repeat;
 		    }
 		    
 		    #haiti-img {
@@ -238,6 +243,19 @@
 		  	text-decoration: none;
 		  	cursor: pointer;
 		  }
+		  
+		  @media(max-width: 600px) {
+		  	.heading-styling {
+		  		font-size: 56px;
+		  	}
+		  	
+		  	.line-right {
+		  		border-right: none;
+		  		padding-bottom: 10px;
+		  		border-bottom: .25rem solid #e9ecef;
+		  		margin-bottom: 15px;
+		  	}
+		  }
 		</style>
     </head>
     <body>
@@ -245,7 +263,7 @@
     	<div id="popup">
     		<div class="popup-content">
     			<span class="close">&times;</span>
-    			<img src="images/grinch_flyer.png" alt="Grinch Flyer" />
+    			<img class="img-fluid" src="images/grinch_flyer.png" alt="Grinch Flyer" />
     		</div>
     	</div>
     	
@@ -293,7 +311,7 @@
             </div>
         </section>
         
-        <section id="bgc-logo" class="image-block text-center alt"><img style="margin-top: 3%;" class="img-fluid" src="images/bgc_logo.png" alt="Boys &amp; Girls Club logo" /></section>
+        <section id="bgc-logo" class="image-block"></section>
         
         <section id="board" class="text-block">
             <div class="col-half section-header has-bottom-sep">
