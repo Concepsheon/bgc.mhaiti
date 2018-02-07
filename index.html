@@ -24,20 +24,20 @@
 		        height: 100%;
 		        overflow-x: hidden;
 		    }
-		    
+			
+	            .landing {
+	              background: #005AA7;  /* fallback for old browsers */
+		      background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+		      background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		    }
+			
+	            header, .hero {
+		      background: transparent;
+		    }
 		    
 		    .hero {
 		        height: 100%;
-		        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/children_group.jpg');
-		        background-size: cover;
-		        background-repeat: no-repeat;
-		        background-position: center;
 		    }
-		    
-		    header {
-		        background: #0083C0;
-		    }
-		    
 		    .nav-link {
 		        color: white !important;
 		        font-size: 24px;
@@ -266,6 +266,7 @@
     		</div>
     	</div>
     	
+	<section class="landing">    
         <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
             <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Boys and Girls Club of Montrouis Haiti">Boys and Girls Club of Montrouis Haiti</a>
             
@@ -286,20 +287,19 @@
             <a class="btn btn-outline-light d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="#" data-toggle="modal" data-target="#donateModal">Donate</a>
         </header>
         
-        <div class="back-to-top"><a href="#"><i class="fas fa-arrow-up"></i></a></div>
+        
         
         <div class="hero">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-left" style="color: white; margin-top: 3.5em">
-                        <img src="images/bgc_haiti_logo_other.png" alt="Boys and Girls Club of Montrouis Haiti" />
-                        <h1 class="display-3">Feeding Minds...Feeding Hearts...<br>Feeding Hope...Feeding Hunger</h1>
-                        <button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#donateModal"><i class="far fa-heart"></i> Donate</button>
-                    </div>
-                </div>
+            <div class="container text-center">
+              <img src="images/bgc_haiti_logo_other.png" alt="Boys and Girls Club of Montrouis Haiti" />
+              <p style="color: white;">Feeding Minds...Feeding Hearts...<br>Feeding Hope...Feeding Hunger</p>
+              <button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#donateModal"><i class="far fa-heart"></i> Donate</button>
             </div>
         </div>
+	</section>
         
+	<div class="back-to-top"><a href="#"><i class="fas fa-arrow-up"></i></a></div>
+	    
         <section id="mission" class="text-block">
             <div class="col-half section-header has-bottom-sep">
                 <div class="col-full"><h1 class="heading-styling">Our Mission</h1></div>
