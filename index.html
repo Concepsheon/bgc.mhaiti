@@ -410,9 +410,9 @@
                 
                 <div style="font-size: 21px;">
                     <a class="p-2" href="https://donorbox.org/boys-and-girls-club-of-montrouis-needs-your-help-raising-10-000-to-secure-our-club-building-in-haiti" target="_blank">Donor Box</a>
-                    <a class="p-2" href="#" target="_blank"><i class="fab fa-paypal"></i></a>
-                    <a class="p-2" href="#" target="_blank"><i class="fas fa-dollar-sign"></i></a>
-                    <a class="p-2" href="#" target="_blank"><i class="far fa-square"></i></a>
+                    <a class="p-2" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=N7A4TJVUNJ4NJ" target="_blank"><i class="fab fa-paypal"></i></a>
+                    <a class="p-2" href="https://squareup.com/" target="_blank" data-toggle="tooltip" data-placement="top" title="$BGCofMontrouisHaiti"><i class="fas fa-dollar-sign"></i></a>
+                    <a class="p-2" href="https://cash.me/" target="_blank" data-toggle="tooltip" data-placement="top" title="$BGCofMontrouisHaiti"><i class="far fa-square"></i></a>
                 </div>
               </div>
             </div>
@@ -420,6 +420,7 @@
         </div>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script type="text/javascript">
             $(function() {
@@ -447,6 +448,10 @@
                     $('html, body').animate({scrollTop: 0}, 800);
                     return false;
                 });
+		    
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		});
             });
         </script>
     </body>
