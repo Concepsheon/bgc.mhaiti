@@ -35,17 +35,27 @@
 	            header, .hero {
 		      background: transparent;
 		    }
+		    
+		    .navbar-brand {
+	              color: #0083c0;
+		    }
 			
 		    .nav-link {
 		        color: #0083c0 !important;
 		        font-size: 24px;
 		    }
 		    
-		    .btn-outline-light:hover {
+		    .btn-outline-light {
 		        color: #0083C0;
-		        background-color: #f8f9fa;
+			background:transparent;
 		        border-color: #0083c0;
+			transition: all .3s ease;
 		    }
+			
+		    .btn-outline-light:hover {
+		      background: #0083c0;
+		      color: white;
+		     }
 		    
 		    .btn-outline-light:not(:disabled):not(.disabled):active {
 		        color: #0083C0;
