@@ -215,7 +215,7 @@
 		        font-size: 42px;
 		    }
 		    
-		    #popup {
+		    /*#popup {
 		    	position: fixed;
 		    	z-index: 3;
 		    	left: 0;
@@ -250,7 +250,7 @@
 		  	color: black;
 		  	text-decoration: none;
 		  	cursor: pointer;
-		  }
+		  }*/
 		  
 		  @media(max-width: 600px) {
 		  	.heading-styling {
@@ -268,12 +268,12 @@
     </head>
     <body>
     	
-    	<div id="popup">
+    	<!--<div id="popup">
     		<div class="popup-content">
     			<span class="close">&times;</span>
     			<img class="img-fluid" src="images/grinch_flyer.png" alt="Grinch Flyer" />
     		</div>
-    	</div>
+    	</div>-->
     	
 	<section class="landing">    
         <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
@@ -435,11 +435,11 @@
             $(function() {
                 console.log( "ready!" );
                 
-                $("#popup").animate({opacity:  1}, 800);
+                /*$("#popup").animate({opacity:  1}, 800);
                 
                 $(".close").click(function() {
                 	$("#popup").hide();
-                });
+                });*/
                 
                 var btn = $(".back-to-top");
                 
