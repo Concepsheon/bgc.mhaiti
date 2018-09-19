@@ -12,7 +12,7 @@
 		<meta name="author" content="Concepsheon Hall">
 		<meta name="description" content="Committed to the premise that children around the globe deserve a good start and a solid foundation to flourish and succeed.">
 
-		<title>Boys & Girls Club of Montrouis Haiti</title>
+		<title>Boys and Girls Club of Montrouis Haiti</title>
 		<!--<link rel="shortcut icon" href="favicon.png" type="image/x-icon">-->
 		<meta name="robots" content="index,follow">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
@@ -24,30 +24,38 @@
 		        height: 100%;
 		        overflow-x: hidden;
 		    }
-		    
-		    
-		    .hero {
-		        height: 100%;
-		        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/children_group.jpg');
-		        background-size: cover;
-		        background-repeat: no-repeat;
-		        background-position: center;
+			
+	            .landing {
+		      height: 100%;
+	              background: #eee;  /* fallback for old browsers */
+		      background: -webkit-linear-gradient(to top, transparent, #eee);  /* Chrome 10-25, Safari 5.1-6 */
+		      background: linear-gradient(to top, transparent, #eee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		    }
+			
+	            header, .hero {
+		      background: transparent;
 		    }
 		    
-		    header {
-		        background: #0083C0;
+		    .navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover {
+	              color: #0083c0;
 		    }
-		    
+			
 		    .nav-link {
-		        color: white !important;
+		        color: #0083c0 !important;
 		        font-size: 24px;
 		    }
 		    
-		    .btn-outline-light:hover {
+		    .btn-outline-light {
 		        color: #0083C0;
-		        background-color: #f8f9fa;
-		        border-color: #f8f9fa;
+			background:transparent;
+		        border-color: #0083c0;
+			transition: all .3s ease;
 		    }
+			
+		    .btn-outline-light:hover {
+		      background: #0083c0;
+		      color: white;
+		     }
 		    
 		    .btn-outline-light:not(:disabled):not(.disabled):active {
 		        color: #0083C0;
@@ -188,8 +196,8 @@
 		    .back-to-top {
 		        opacity: 0;
 		        position: fixed;
-		        bottom: 10px;
-		        right: 15px;
+		        bottom: 15px;
+		        right: 40px;
 		        padding-top: 3px;
 		        border-radius: 5px;
 		        text-align: center;
@@ -214,6 +222,7 @@
 		    	top: 0;
 		    	width: 100%;
 		    	height: 100%;
+			overflow: auto;
 		    	opacity: 0;
 		    	background-color: rgb(0,0,0);
 		    	background-color: rgba(0,0,0,0.4);
@@ -266,8 +275,9 @@
     		</div>
     	</div>-->
     	
+	<section class="landing">    
         <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-            <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Boys &amp; Girls Club of Montrouis Haiti">Boys &amp; Girls Club of Montrouis Haiti</a>
+            <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Boys and Girls Club of Montrouis Haiti">Boys and Girls Club of Montrouis Haiti</a>
             
             <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
                 <li class="nav-item">
@@ -286,9 +296,10 @@
             <a class="btn btn-danger d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="#" data-toggle="modal" data-target="#donateModal">Donate</a>
         </header>
         
-        <div class="back-to-top"><a href="#"><i class="fas fa-arrow-up"></i></a></div>
+        
         
         <div class="hero">
+<<<<<<< HEAD
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-left" style="color: white; margin-top: 5.5em">
@@ -297,9 +308,18 @@
                         <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#donateModal"><i class="far fa-heart"></i> Donate</button>
                     </div>
                 </div>
+=======
+            <div class="container text-center">
+              <img class="img-fluid" src="images/main_logo.png" alt="Boys and Girls Club of Montrouis Haiti" width="500" height="500"/>
+              <!--<p style="color: white;">Feeding Minds...Feeding Hearts...<br>Feeding Hope...Feeding Hunger</p>
+              <button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#donateModal"><i class="far fa-heart"></i> Donate</button>-->
+>>>>>>> 6edcb7a186dcc1a411300b5b00bcf9371ef3d6f8
             </div>
         </div>
+	</section>
         
+	<div class="back-to-top"><a href="#"><i class="fas fa-arrow-up"></i></a></div>
+	    
         <section id="mission" class="text-block">
             <div class="col-half section-header has-bottom-sep">
                 <div class="col-full"><h1 class="heading-styling">Our Mission</h1></div>
@@ -348,6 +368,23 @@
             </div>
         </section>
         
+<<<<<<< HEAD
+=======
+        <section id="haiti-img" class="image-block"></section>
+        
+        <section id="partner" class="text-block">
+            <div class="col-half section-header has-bottom-sep">
+                <div class="col-full"><h1 class="heading-styling">Partnership</h1></div>
+            </div>
+            
+            <div class="col-half desc">
+                <div class="col-full"><p>We are proud to be partnering with The Boys &amp; Girls Clubs of America, who have been influencing and changing young people's lives for more than a century. We are certain with their support and training we will be able to move mountains in many children's lives in Haiti.</p></div>
+            </div>
+        </section>
+        
+        <section id="beach-img" class="image-block"></section>
+        
+>>>>>>> 6edcb7a186dcc1a411300b5b00bcf9371ef3d6f8
         <!--<section id="contact" class="text-block">
             <div class="col-half section-header has-bottom-sep">
                 <div class="col-full"><h1 class="heading-styling">Contact</h1></div>
@@ -396,7 +433,7 @@
             </div>
         </section>
         
-        <footer><p class="copyright">&copy; 2017 Boys &amp; Girls Club of Montrouis Haiti</p></footer>
+        <footer><p class="copyright">&copy; 2017 Boys and Girls Club of Montrouis Haiti</p></footer>
         
         <!-- Modal -->
         <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="donateModal" aria-hidden="true">
@@ -409,15 +446,14 @@
                 </button>
               </div>
               <div class="modal-body text-center">
-                <div><img src="images/bgc_haiti_donate.png" alt="Boys &amp; Girls Club of Montrouis Haiti logo" /></div>
+                <div><img src="images/bgc_haiti_donate.png" alt="Boys and Girls Club of Montrouis Haiti logo" /></div>
                 <h6>For Donations and Correspondence Mail To: </h6>
-                <p><address>Boys & Girls Club of Montrouis, Haiti Inc. <br> P.O. Box 92798 <br> Atlanta, GA 30314</address></p>
+                <p><address>Boys and Girls Club of Montrouis, Haiti Inc. <br> P.O. Box 92798 <br> Atlanta, GA 30314</address></p>
                 
                 <div style="font-size: 21px;">
-                    <a class="p-2" href="https://donorbox.org/boys-and-girls-club-of-montrouis-needs-your-help-raising-10-000-to-secure-our-club-building-in-haiti" target="_blank">Donor Box</a>
-                    <a class="p-2" href="#" target="_blank"><i class="fab fa-paypal"></i></a>
-                    <a class="p-2" href="#" target="_blank"><i class="fas fa-dollar-sign"></i></a>
-                    <a class="p-2" href="#" target="_blank"><i class="far fa-square"></i></a>
+                    <a class="p-2" href="https://donorbox.org/boys-and-girls-club-of-montrouis-needs-your-help-raising-10-000-to-secure-our-club-building-in-haiti" target="_blank"><img src="https://nonprofitnews.rebelsites.com/wp-content/uploads/2016/09/donorbox-logo-lg-square.png" width="25" height="25"/></a>
+                    <a class="p-2" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=N7A4TJVUNJ4NJ" target="_blank"><i class="fab fa-paypal"></i></a>
+                    <a class="p-2" href="https://cash.me/" target="_blank" data-toggle="tooltip" data-placement="top" title="$BGCofMontrouisHaiti"><i class="fas fa-dollar-sign"></i></a>
                 </div>
               </div>
             </div>
@@ -425,20 +461,30 @@
         </div>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script type="text/javascript">
             $(function() {
                 console.log( "ready!" );
                 
+<<<<<<< HEAD
+=======
+                /*$("#popup").animate({opacity:  1}, 800);
+                
+                $(".close").click(function() {
+                	$("#popup").hide();
+                });*/
+                
+>>>>>>> 6edcb7a186dcc1a411300b5b00bcf9371ef3d6f8
                 var btn = $(".back-to-top");
                 
                 $(window).scroll(function() {
                    var scrollPos = $(this).scrollTop();
                    
                    if(scrollPos > 800) {
-                       $(btn).css("opacity", "1");
+                       btn.css("opacity", "1");
                    } else {
-                       $(btn).css("opacity", "0");
+                       btn.css("opacity", "0");
                    }
                 });
                 
@@ -446,6 +492,10 @@
                     $('html, body').animate({scrollTop: 0}, 800);
                     return false;
                 });
+		    
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		});
             });
         </script>
     </body>
